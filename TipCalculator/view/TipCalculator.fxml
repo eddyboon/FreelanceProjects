@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TipController">
+   <children>
+      <Button id="fifteenPercent" contentDisplay="CENTER" layoutX="165.0" layoutY="200.0" mnemonicParsing="false" onAction="#fifteenTip" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: #D3D3D3;" text="15%" />
+      <Button id="eightteenPercent" contentDisplay="CENTER" layoutX="274.0" layoutY="200.0" mnemonicParsing="false" onAction="#eightTeenTip" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: #D3D3D3;" text="18%" />
+      <Button id="twentyPercent" contentDisplay="CENTER" layoutX="374.0" layoutY="200.0" mnemonicParsing="false" onAction="#twentyTip" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: #D3D3D3;" text="20%" />
+      <TextField fx:id="billAmountField" layoutX="188.0" layoutY="127.0" prefHeight="26.0" prefWidth="221.0" promptText="Enter Bill Amount" />
+      <Text fx:id="billInformation" fill="GREY" layoutX="224.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tip: $0.00, Total Bill: $0.00" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</Pane>
